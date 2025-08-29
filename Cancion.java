@@ -1,4 +1,4 @@
-package MyPlaylist;
+package myPlaylist;
 
 public class Cancion {
 
