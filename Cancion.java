@@ -43,3 +43,33 @@ public String reproducir(){
     public String getArtista() {
         return artista;
     }
+
+      public void setArtista(String artista) {
+        this.artista = artista;
+    }
+ 
+    public String getGenero() {
+        return genero;
+    }
+ 
+    public void setGenero(String genero) {
+        this.genero = genero;
+    }
+ 
+    public int getDuracionSegundos() {
+        return duracionSegundos;
+    }
+ 
+    public void setDuracionSegundos(int duracionSegundos) {
+        this.duracionSegundos = duracionSegundos;
+    }
+ 
+    public void reproducir() {
+        System.out.println("Reproduciendo: " + titulo + " - " + artista);
+    }
+    public String obtenerDetalles() {
+        return "Título: " + titulo +
+               ", Artista: " + artista +
+               ", Duración: " + duracionSegundos + " segundos" +
+               ", Género: " + genero;
+    }
